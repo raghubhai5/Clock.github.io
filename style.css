@@ -76,20 +76,20 @@ body {
 
 .hour-hand {
     width: 12px;
-    height: 130px;
+    height: 125px;
     background: linear-gradient(#00d9ff, #ee00ff);
 }
 
 .minute-hand {
     width: 12px;
-    height: 190px;
+    height: 160px;
     background: linear-gradient(to top,#00d9ff, #ee00ff);
 
 }
 
 .second-hand {
     width: 6px;
-    height: 210px;
+    height: 200px;
     background: linear-gradient(to top, #00d9ff, #ee00ff);
 
 }

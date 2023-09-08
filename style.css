@@ -15,8 +15,8 @@ body {
 }
 
 .clock {
-    width: 500px;
-    height: 500px;
+    width: 31.3rem;
+    height:  31.3rem;
     position: relative;
     background-color: lightgray;
     border-radius: 50%;
@@ -29,12 +29,12 @@ body {
 
 .clock::before {
     content: "";
-    width: 525px;
-    height: 525px;
+    width: 32.8rem;
+    height: 32.8rem;
     position: absolute;
     border-radius: 50%;
     background: linear-gradient(to right, #00d9ff, #ee00ff);
-    box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 .9rem .9rem rgba(0, 0, 0, 0.2);
     z-index: -1;
 }
 
@@ -42,10 +42,10 @@ body {
     transform: rotate(calc(30deg * var(--n)));
     position: absolute;
     text-align: center;
-    inset: 20px;
-    font-size: 40px;
+    inset: 1.3rem;
+    font-size: 2.5rem;
     color: #00d9ff;
-    text-shadow: 0 0 12px #ee00ff;
+    text-shadow: 0 0 .7rem #ee00ff;
 }
 
 .number b {
@@ -56,10 +56,10 @@ body {
 
 .center-dot {
     position: absolute;
-    width: 25px;
-    height: 25px;
+    width: 1.6rem;
+    height: 1.6rem;
     background-color: #ee00ff;
-    border: 6px solid #00d9ff;
+    border: .4rem solid #00d9ff;
     border-radius: 50%;
 
 }
@@ -71,25 +71,25 @@ body {
     bottom: 50%;
     transform: translate(-50%) rotate(calc(var(--rotate) * 1deg));
     transform-origin: bottom;
-    border-radius: 30px 30px 0 0;
+    border-radius: 1.8rem 1.8rem 0 0;
 }
 
 .hour-hand {
-    width: 12px;
-    height: 125px;
+    width: .8rem;
+    height: 7.8rem;
     background: linear-gradient(#00d9ff, #ee00ff);
 }
 
 .minute-hand {
-    width: 12px;
-    height: 160px;
+    width: .8rem;
+    height: 10.7rem;
     background: linear-gradient(to top,#00d9ff, #ee00ff);
 
 }
 
 .second-hand {
-    width: 6px;
-    height: 200px;
+    width: .4rem;
+    height: 12.7rem;
     background: linear-gradient(to top, #00d9ff, #ee00ff);
 
 }
